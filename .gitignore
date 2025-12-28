@@ -1,0 +1,24 @@
+# Byte-code files
+__pycache__/
+*.pyc
+*~$
+*.whl
+
+# Distributions and packaging
+.Python
+build/
+dist/
+eggs/
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Data and logs
+*.log
+*.temp
+*.tmp

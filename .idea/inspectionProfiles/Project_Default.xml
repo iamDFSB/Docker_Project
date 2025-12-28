@@ -1,0 +1,60 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="backoff" />
+          <option value="ruff" />
+          <option value="pandas" />
+          <option value="protobuf" />
+          <option value="polars" />
+          <option value="python-dotenv" />
+          <option value="sqlalchemy" />
+          <option value="requests" />
+          <option value="pyhive" />
+          <option value="httpx" />
+          <option value="psycopg2-binary" />
+          <option value="pytz" />
+          <option value="aiohttp" />
+          <option value="selenium" />
+          <option value="bs4" />
+          <option value="beautifulsoup4" />
+          <option value="pydantic" />
+          <option value="webdriver-manager" />
+          <option value="nltk" />
+          <option value="tqdm" />
+          <option value="unidecode" />
+          <option value="gspread" />
+          <option value="oauth2client" />
+          <option value="asyncpg" />
+          <option value="numpy" />
+          <option value="matplotlib" />
+          <option value="requests-toolbelt" />
+          <option value="nodriver" />
+          <option value="openpyxl" />
+          <option value="python-dateutil" />
+          <option value="certifi" />
+          <option value="pydantic-core" />
+          <option value="structlog" />
+          <option value="pymongo" />
+          <option value="pyyaml" />
+          <option value="pyjson5" />
+          <option value="zendriver" />
+          <option value="alembic" />
+          <option value="lxml" />
+          <option value="black" />
+          <option value="isort" />
+          <option value="typing_extensions" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyStubPackagesAdvertiser" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="pandas" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
