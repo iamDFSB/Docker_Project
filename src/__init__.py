@@ -1,6 +1,7 @@
 from .config import DBConnection
 from .entities import Users as UsersModel
 
+
 class UserRepo:
     def insert_user(self, name):
         with DBConnection() as db:

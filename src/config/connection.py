@@ -1,9 +1,12 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
+from src.settings import Settings
+
+
 class DBConnection:
     def __init__(self):
-        self.__connection_string = 'postgresql+psycopg2://postgres:1234@postgresdb:5432/postgres'
+        self.__connection_string = f'postgresql+psycopg2://postgres:{Settings.POSTGRES_PASSWORD}@postgresdb:5432/postgres'
         self.session = None
 
     def __enter__(self):
