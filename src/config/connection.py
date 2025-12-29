@@ -6,7 +6,8 @@ from src.settings import Settings
 
 class DBConnection:
     def __init__(self):
-        self.__connection_string = f'postgresql+psycopg2://postgres:{Settings.POSTGRES_PASSWORD}@postgresdb:5432/postgres'
+        self.__connection_string = f'postgresql+psycopg2://postgres:{Settings.POSTGRES_PASSWORD}@postgresdb:5432/postgres' # Docker
+        # self.__connection_string = f'postgresql+psycopg2://postgres:{Settings.POSTGRES_PASSWORD}@localhost:5434/postgres' # Local
         self.session = None
 
     def __enter__(self):
