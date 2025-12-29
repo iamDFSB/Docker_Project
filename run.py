@@ -1,7 +1,7 @@
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
 
-from src import UserRepo
+from src import UserRepo, UsersModel
 
 app = FastAPI()
 
@@ -11,8 +11,7 @@ def greeting():
 
 
 @app.post("/insert")
-def insert(request: Request):
+def insert(request: Request, name: str):
     userRepo = UserRepo()
-    body = request.json
-    userRepo.insert_user(body["name"])
+    userRepo.insert_user(name)
     return JSONResponse(status_code=201, content={"message": "User added successfully"})
